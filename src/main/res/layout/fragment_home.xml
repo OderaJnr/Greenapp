@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <include
+        android:id="@+id/sitematching"
+        layout="@layout/homepage_sitematching_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/sitematching"
+        tools:layout_editor_absoluteX="0dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_marginTop="1dp"
+            app:cardElevation="15dp"
+            tools:ignore="RtlCompat">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="Mazingira Tree Nursery"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="134dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/thi_color_black"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+
+                            <TextView
+                                android:id="@+id/Sproduct_name"
+                                android:layout_width="112dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:gravity="center"
+                                android:text="Tree A"
+                                android:textColor="#000"
+                                android:textSize="15sp"
+                                android:typeface="serif" />
+
+
+                            <ImageView
+                                android:id="@+id/Sproduct_image"
+                                android:layout_width="123dp"
+                                android:layout_height="108dp"
+                                android:layout_marginTop="10dp"
+                                android:adjustViewBounds="true"
+                                android:cropToPadding="false"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/growingtree" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingLeft="10dp">
+
+
+                            <Button
+                                android:id="@+id/addtocartButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="32dp"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/menu_background"
+                                android:text="Add to cart"
+                                android:textColor="#000"
+                                android:textSize="12sp"
+                                android:typeface="serif"></Button>
+
+
+                            <TextView
+                                android:id="@+id/Sproduct_price"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginTop="10dp"
+                                android:gravity="end"
+                                android:text="KSh 200"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="14sp" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="134dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/thi_color_black"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:gravity="center"
+                                android:text="Tree B"
+                                android:textColor="#000"
+                                android:textSize="15dp"
+                                android:typeface="serif" />
+
+
+                            <ImageView
+                                android:layout_width="123dp"
+                                android:layout_height="108dp"
+                                android:layout_marginTop="10dp"
+                                android:adjustViewBounds="true"
+                                android:cropToPadding="false"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/seedlings" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingLeft="10dp">
+
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="32dp"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/menu_background"
+                                android:text="Add to cart"
+                                android:textColor="#000"
+                                android:textSize="12sp"
+                                android:typeface="serif"></Button>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginTop="10dp"
+                                android:gravity="end"
+                                android:text="KSh 100"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="14sp" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="134dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/thi_color_black"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:gravity="center"
+                                android:text="Tree C"
+                                android:textColor="#000"
+                                android:textSize="15dp"
+                                android:typeface="serif" />
+
+
+                            <ImageView
+                                android:layout_width="123dp"
+                                android:layout_height="108dp"
+                                android:layout_marginTop="10dp"
+                                android:adjustViewBounds="true"
+                                android:cropToPadding="false"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/silveroak" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingLeft="10dp">
+
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="32dp"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/menu_background"
+                                android:text="Add to cart"
+                                android:textColor="#000"
+                                android:textSize="12sp"
+                                android:typeface="serif"></Button>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginTop="10dp"
+                                android:gravity="end"
+                                android:text="KSh 100"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="14sp" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_marginTop="1dp"
+            app:cardElevation="15dp"
+            tools:ignore="RtlCompat">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="KEFRI MASENO"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="134dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/thi_color_black"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:gravity="center"
+                                android:text="Cyprus Tree"
+                                android:textColor="#000"
+                                android:textSize="15dp"
+                                android:typeface="serif" />
+
+
+                            <ImageView
+                                android:layout_width="123dp"
+                                android:layout_height="108dp"
+                                android:layout_marginTop="10dp"
+                                android:adjustViewBounds="true"
+                                android:cropToPadding="false"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/b_cypress" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingLeft="10dp">
+
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="32dp"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/menu_background"
+                                android:text="Add to cart"
+                                android:textColor="#000"
+                                android:textSize="12sp"
+                                android:typeface="serif"></Button>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginTop="10dp"
+                                android:gravity="end"
+                                android:text="KSh 200"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="14sp" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="134dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/thi_color_black"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:gravity="center"
+                                android:text="Tree X"
+                                android:textColor="#000"
+                                android:textSize="15dp"
+                                android:typeface="serif" />
+
+
+                            <ImageView
+                                android:layout_width="123dp"
+                                android:layout_height="108dp"
+                                android:layout_marginTop="10dp"
+                                android:adjustViewBounds="true"
+                                android:cropToPadding="false"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/soursoo" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingLeft="10dp">
+
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="32dp"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/menu_background"
+                                android:text="Add to cart"
+                                android:textColor="#000"
+                                android:textSize="12sp"
+                                android:typeface="serif"></Button>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginTop="10dp"
+                                android:gravity="end"
+                                android:text="KSh 100"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="14sp" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

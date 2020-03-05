@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#339E4D</color>
+    <color name="colorPrimaryDark">#1EB842</color>
+    <color name="colorAccent">#48D26B</color>
+    <color name="contentTextColor">#fcfcfc</color>
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="receivercolor">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="colorBackground">#152b38</color>
+    <color name="pink">#fe104d</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#21A349</color>
+    <color name="loginBkColor">#f0f0f0</color>
+    <color name="colorred">#B30A0A</color>
+    <color name="red">#B30A0A</color>
+    <color name="limegreen">#E6F3D9</color>
+
+
+
+
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+</resources>
